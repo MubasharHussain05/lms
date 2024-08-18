@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch</title>
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- font-awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- header section start -->
+    <header class="header">
+
+        <section class="flex">
+            <a href="home.html" class="logo">E-Learning</a>
+            <form action="" method="post" class="search-form">
+                <input type="text" name="search-box" class="search-input" placeholder="search courses..." required maxlength="100">
+                <button type="submit" class="fas fa-search" name="search-box"></button>
+            </form>
+            <div class="icons">
+               <div id="menu-btn" class="fas fa-bars"></div> 
+               <div id="search-btn" class="fas fa-search"></div> 
+               <div id="user-btn" class="fas fa-user"></div> 
+               <div id="toggle-btn" class="fas fa-sun"></div> 
+            </div>
+            <div class="profile" id="profile">
+                <img src="images/pic-1.jpeg" alt="error">
+                <h3>Mubashar Hussain</h3>
+                <span>Students</span>
+                <a href="profile.html" class="btn">view profine</a>
+                <div class="flex-btn">
+                    <a href="login.html" class="option-btn">Login</a>
+                    <a href="register.html" class="option-btn">Register</a>
+                </div>
+            </div>
+
+        </section>
+    </header>
+     
+
+    <!-- header section end -->
+
+<!-- sidebar section start -->
+<div class="sidebar">
+    <div class="close-side-bar" >
+        <i class="fas fa-times"></i>
+    </div>
+
+
+ <div class="profile" id="profile">
+    <img src="images/pic-1.jpeg" alt="error">
+    <h3>Mubashar Hussain</h3>
+    <span>Students</span>
+    <a href="profile.html" class="btn">view profine</a>
+</div>
+<div class="navbar">
+ <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+ <a href="about.html"><i class="fas fa-question"></i><span>About</span></a>
+ <a href="contact.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
+ <a href="teacher.html"><i class="fas fa-chalkboard-user"></i><span>Admin</span></a>
+ <a href="contact.html"><i class="fas fa-headset"></i><span>Contact</span></a>
+</div>
+</div>
+
+  <!-- sidebar section end -->
+
+  <!-- watch vedio  section start -->
+   <section class="watch-vedio">
+    <div class="vedio-details">
+        <vedio src="images//vid-1.mp4" class="vedio" poster="images/html.jpg" controls autoplay ></vedio>
+        <h3 class="title">complete HTML tutorial (part 01)</h3>
+        <div class="info">
+            <p><i class="fas fa-calendar"></i><span>21-08-204</span></p>
+            <p><i class="fas fa-heart"></i><span>42 Likes</span></div>
+        </div>
+        
+        <div class="tutor">
+            <img src="images/pic-2.jpg" alt="">
+            <div >
+                <h3>john deo</h3>
+                <span>developer</span>
+            </div>
+        </div>
+        <form action="" method="post" class="flex">
+            <a href="playlist.html" class="inline-btn">view playlist</a>
+            <button type="submit"><i class="far fa-heart"></i><span>like</span></button>
+        </form>
+        <div class="desription">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eos nemo harum voluptatum, voluptates quasi veritatis aliquam repudiandae qui. Eligendi, consequuntur iure facere illo assumenda incidunt fugit? Cumque, possimus quisquam.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis in dicta totam, distinctio architecto natus ullam voluptatum repellat nesciunt tempore ex autem voluptates non possimus ratione sed, amet itaque ad?</p>
+
+        </div>
+    </div>
+   </section>
+
+  <!-- watch vedio  section end -->
+
+  <!-- comments section start -->
+   <section class="comments">
+    <h1 class="heading">add comment</h1>
+    <form action="" method="method" class="add-comments">
+        <h3>add title</h3>
+        <textarea name="comment-box" required placeholder="write your comments..." maxlength="1000" cols="30" rows="10"></textarea>
+        <input type="submit" value="add comment" name="add_comment"  class="inline-btn">
+    </form>
+    <h1 class="heading">6 comment</h1>
+    <div class="show-comments">
+        <div class="box">
+            <div class="user">
+                <img src="images/pic-1.jpeg" alt="">
+                <div>
+                    <h3>Mubashir</h3>
+                    <span>10-08-2024</span>
+                </div>
+            </div>
+            <p class="text">this is a comment from Mubashar Hussain</p>
+            <form action="" method="post" class="flex-btn">
+                <button type="submit" name="edit_comment" class="inline-option-btn">edit comment</button>
+                <button type="submit" name="edit_comment" class="inline-delete-btn">delete comment</button>
+            </form>
+        </div>
+
+
+        <div class="box">
+            <div class="user">
+                <img src="images/pic-2.jpg" alt="">
+                <div>
+                    <h3>john</h3>
+                    <span>10-08-2024</span>
+                </div>
+            </div>
+            <p class="text">wow amzing vedio! thamks for source code </p>
+        </div>
+
+        <div class="box">
+            <div class="user">
+                <img src="images/pic-2.jpg" alt="">
+                <div>
+                    <h3>john</h3>
+                    <span>10-08-2024</span>
+                </div>
+            </div>
+            <p class="text">wow amzing vedio! thamks for source code </p>
+        </div>
+
+        <div class="box">
+            <div class="user">
+                <img src="images/pic-2.jpg" alt="">
+                <div>
+                    <h3>john</h3>
+                    <span>10-08-2024</span>
+                </div>
+            </div>
+            <p class="text">wow amzing vedio! thamks for source code </p>
+        </div>
+    </div>
+   </section>
+
+  <!-- comments section end -->
+
+
+
+
+
+
+    <!-- footer section start -->
+    <footer class="footer">
+        &copy; copyright @ 2024 by <span>devsniz</span> | all rights reserved!
+     </footer>
+        <!-- footer section end -->
+     
+     <!-- custom js file link -->
+     <script src="/js/script.js"></script>
+ </body>
+ </html>
